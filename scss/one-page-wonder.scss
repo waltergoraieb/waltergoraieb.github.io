@@ -1,0 +1,59 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "bootstrap-overrides.scss";
+
+.hero-logo {
+  width: 70%;
+  img {
+    color: $secondary;
+    stroke: black;
+  }
+}
+
+.section-header {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  span {
+    vertical-align: middle;
+    @include heading-font;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header {
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+    span {
+      font-size: 1.5rem;
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+.contact-link {
+  a,
+  i {
+    vertical-align: middle;
+    color: $secondary;
+  }
+  i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+}
