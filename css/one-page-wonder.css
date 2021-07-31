@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat";
   font-weight: 300 !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 h1,
@@ -13,6 +13,7 @@ h6 {
   font-family: "Montserrat";
   font-weight: 200 !important;
   text-transform: uppercase;
+  font-size: 1.5rem !important;
 }
 
 a {
@@ -38,7 +39,7 @@ a {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(55, 53, 58, 0.9);
+  background-color: rgba(55, 53, 58, 0.7);
 }
 
 .navbar-custom .navbar-brand {
@@ -169,6 +170,7 @@ header.masthead .masthead-content .masthead-subheading {
   font-family: "Montserrat";
   font-weight: 200 !important;
   text-transform: uppercase;
+  font-size: 1.5rem !important;
   font-size: 2rem;
   text-transform: uppercase;
 }
