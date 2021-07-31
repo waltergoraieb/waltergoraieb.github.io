@@ -1,10 +1,11 @@
 @mixin heading-font {
-  font-family: "Raleway";
-  font-weight: 300 !important;
+  font-family: "Montserrat";
+  font-weight: 200 !important;
   text-transform: uppercase;
 }
 
 @mixin body-font {
-  font-family: "Nunito";
+  font-family: "Montserrat";
+  font-weight: 300 !important;
   font-size: 1.2rem;
 }

@@ -1,5 +1,6 @@
 body {
-  font-family: "Nunito";
+  font-family: "Montserrat";
+  font-weight: 300 !important;
   font-size: 1.2rem;
 }
 
@@ -9,8 +10,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway";
-  font-weight: 300 !important;
+  font-family: "Montserrat";
+  font-weight: 200 !important;
   text-transform: uppercase;
 }
 
@@ -76,7 +77,7 @@ header.masthead {
   padding-bottom: 7rem;
   background: #d8dde4;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
   background-image: url("/img/hero.jpg");
 }
@@ -92,8 +93,10 @@ header.masthead .masthead-content .masthead-heading {
 
 header.masthead .masthead-content .masthead-subheading {
   margin-top: 1em;
-  color: #37353a;
-  font-size: 1rem;
+  color: #f8f9fa;
+  font-size: 0.8rem;
+  letter-spacing: 0.5em;
+  text-shadow: 0px 0px 4px #000000;
 }
 
 @media (min-width: 992px) {
@@ -163,11 +166,10 @@ header.masthead .masthead-content .masthead-subheading {
 
 .section-header span {
   vertical-align: middle;
-  font-family: "Raleway";
-  font-weight: 300 !important;
+  font-family: "Montserrat";
+  font-weight: 200 !important;
   text-transform: uppercase;
   font-size: 2rem;
-  margin-left: 1rem;
   text-transform: uppercase;
 }
 
@@ -178,7 +180,6 @@ header.masthead .masthead-content .masthead-subheading {
   }
   .section-header span {
     font-size: 1.5rem;
-    margin-left: 0.5rem;
   }
 }
 

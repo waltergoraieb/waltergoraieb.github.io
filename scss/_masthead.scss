@@ -6,7 +6,7 @@ header.masthead {
   //background: linear-gradient(0deg, $secondary 0%, $primary 100%);
   background: $primary;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
   background-image: url("/img/hero.jpg");
   .masthead-content {
@@ -17,8 +17,10 @@ header.masthead {
     }
     .masthead-subheading {
       margin-top: 1em;
-      color: $secondary;
-      font-size: 1rem;
+      color: $gray-100;
+      font-size: 0.8rem;
+      letter-spacing: 0.5em;
+      text-shadow: 0px 0px 4px #000000;
     }
   }
 }
